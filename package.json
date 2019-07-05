@@ -33,5 +33,14 @@
     "react-facebook-login": "^4.1.1",
     "react-router-dom": "^4.3.1",
     "sass-loader": "^7.1.0"
-  }
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laibaabbas/Ecommers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laibaabbas/Ecommers/issues"
+  },
+  "homepage": "https://github.com/laibaabbas/Ecommers#readme"
 }
