@@ -1,0 +1,30 @@
+.bg_image{
+    height: 30vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+.banner-layout {
+    height:250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .buton{
+        padding: 0 16px;
+    bottom: 40px;
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    background: #fff;
+    border-radius: 19px;
+    text-align: center;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    margin-top: 120px
+    
+    }
+}

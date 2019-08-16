@@ -1,6 +1,22 @@
-.app {
-  color: red;
+@import './components/Nav';
+@import './components/Header';
+@import './components/Weekly';
+@import "./components/Recommend";
+@import "./components/Footer";
+@import "./components/Pages/Machinery";
+a:hover{
+  text-decoration: none;
+  outline: none;
 }
-.data {
-  color: blue;
+a,input,button{
+  text-decoration: none;
+  outline: none;
+}
+body{
+  background:lightgray;
+  font-family: Roboto,Helvetica,Tahoma,Arial,"Microsoft YaHei";
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #333;
+
 }

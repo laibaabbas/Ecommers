@@ -1,6 +1,6 @@
 var ExtractTextPlugin=require("extract-text-webpack-plugin")
 module.exports={
-    entry:[ `${__dirname}/src/js/index.jsx`,`${__dirname}/src/css/style.css`],
+    entry:[ `${__dirname}/src/js/index.jsx`,`${__dirname}/src/css/styles.css`],
     output:{
         path:`${__dirname}/dist/js`,
         filename:"bundle.js"
@@ -66,7 +66,7 @@ module.exports={
       resolve: { extensions: [".js", ".jsx", ".css", ".scss"] },
     plugins:[
         new ExtractTextPlugin({
-            filename:"../css/style.css"
+            filename:"../css/styles.css"
         })
     ]
 }

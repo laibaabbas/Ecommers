@@ -1,0 +1,30 @@
+#header{
+    
+    height:65vh;
+    margin-top: 50px;
+    .market{
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 350px;
+        text-transform: capitalize;
+        
+        
+       
+        .market-list{
+            padding: 0rem 0;
+           
+            width: 50%;
+            // border-bottom: #333 1px solid;
+            a{
+                color:#333;
+            }
+            
+           
+           
+        }
+
+    }
+
+   }

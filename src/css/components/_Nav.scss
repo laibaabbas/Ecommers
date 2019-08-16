@@ -1,0 +1,129 @@
+.green-btn{
+  color: #666;
+  font-size: 15px;
+  border: 2px solid #ced4da;
+}
+.search-btn{
+  background: lightgreen;
+  color: #fff;
+  padding-left:30px ;
+  padding-right:30px 
+}
+.search-btn:hover{
+  color: #fff;
+}
+  .navbar-nav {
+    li{
+      margin-right: 10px;
+    }
+  }
+  // #menu{
+  //   position: relative;
+  //   top:100px;
+  //   background: #fff;
+  // }
+  ul.submenu {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 20px 0.4px rgba(0, 0, 0, 0.1);
+    padding: 15px 0px ;
+    margin-top: -5px;
+    display: none;
+    visibility:hidden;
+    width: 200px;
+    margin-left: 10px;
+    z-index: 999;
+    position: absolute;
+text-align: left;
+top: 100%;
+left: 0;
+border-radius:10px; 
+transition: all 0.5s ease 0s;
+text-transform: capitalize;
+list-style: none;
+
+
+li{
+  display: flex;
+    padding: 10px 0px ;
+
+  line-height: 21px;
+    text-decoration: none;
+    color: #666;
+    box-shadow: -2px 1px 5px transparent;
+    border: 1px solid transparent;
+    a:first-child{
+      margin-left: 20px !important;
+    
+    }
+  
+  a:hover{
+    color: orange !important;
+  }
+  i{
+    margin-left: 70px !important;
+    margin-right: 20px !important;
+  }
+  
+}
+li:hover{
+  box-shadow: -2px 1px 5px gainsboro;
+  i{
+    color: orange !important;
+  }
+
+}
+}
+.categories:hover ul.submenu{
+  display: block;
+  visibility: visible;
+  
+  }
+ 
+#services:hover ul.submenu2,
+#membership:hover ul.submenu2{
+  display: block;
+  visibility: visible;
+  
+  }
+ 
+  .submenu2{
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 20px 0.4px rgba(0, 0, 0, 0.1);
+    padding: 15px 40px 10px 10px;
+    display: none;
+    visibility:hidden;
+    width: auto;
+    z-index: 999;
+    position: absolute;
+text-align: left;
+margin: 0px 0;
+// border-top: 3px solid orange;
+top: 100%;
+transition: all 0.5s ease 0s;
+text-transform: capitalize;
+list-style: none;
+border-radius: 5px;
+.green-btn{
+  color: lightgreen;
+  border: 1px solid lightgreen;
+}
+img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+a:hover span{
+  color: orange;
+}
+a{
+  padding: 10px 10px 10px 20px;
+}
+span{
+ 
+  width: 150px;
+}
+  }
+  .input-group{
+    font-size: 20px !important;
+
+  }

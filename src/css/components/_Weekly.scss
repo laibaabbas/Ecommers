@@ -1,0 +1,23 @@
+// #weekly{
+//     margin: 50px 0;
+// }
+.conponents{
+    border-right: 2px solid gray;
+    padding:10px 0px;
+    .image{
+        width: 100px;
+    }
+}
+.discount{
+    background: green;
+    border-radius: 5px;
+    padding: 1px 3px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.prices{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+}
